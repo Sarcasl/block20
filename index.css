@@ -1,0 +1,17 @@
+body{
+    background-image: url(https://images.pexels.com/photos/2883049/pexels-photo-2883049.jpeg)
+}
+
+
+ul {color:lightgreen}
+
+h1 {
+    padding: 60px;
+    text-align: center;
+    background: rgb(34, 0, 128);
+    color: white;
+    font-size: 30px;
+  }
+
+
+
