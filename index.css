@@ -1,5 +1,7 @@
 body{
-    background-image: url(https://images.pexels.com/photos/2883049/pexels-photo-2883049.jpeg)
+    background-image: url(https://images.pexels.com/photos/2883049/pexels-photo-2883049.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -15,3 +17,10 @@ h1 {
 
 
 
+ul {
+    padding: 10px;
+    text-align: center;
+    background: rgb(0, 128, 90);
+    color: white;
+    font-size: 30px;
+}

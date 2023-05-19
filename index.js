@@ -8,29 +8,23 @@ const users = [
     { name: "Adam", age: 47, occupation: "teacher" },
     { name: "Robert", age: 72, occupation: "driver" },
 ];
-const addName = (event) =>{
-const root = document.getElementById("root")
-const ptag = document.createElement("p")
-ptag.innerText = "click"
-root.appendChild (ptag)
-}
+
 
 
 function main (){
 const root = document.getElementById("root")
-const p=document.createElement("h1")
+const h1=document.createElement("h1")
 h1.innerText = "FREELANCERS"
+root.appendChild(h1)
 const ul = document.createElement("ul")
-ul.innerText = `${users[0].name,age,occupation}`
+users.forEach (user=>{
+    const listItem = document.createElement("li");
+    listItem.textContent = `Name: ${user.name}, Age: ${user.age}, Occupation: ${user.occupation}`;
+    ul.appendChild(listItem);
+})
+root.appendChild(ul)
 }
 
-
-const addName = (event) =>{
-    const root = document.getElementById("root")
-    const ptag = document.createElement("p")
-    ptag.innerText = "click"
-    root.appendChild (ptag)
-    }                 
 
 
 
